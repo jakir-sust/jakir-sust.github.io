@@ -1744,6 +1744,13 @@ input, select, textarea {
 
 /* Image */
 
+	.avatar48{
+		width: 178px;
+		height: 220px;
+		margin: 10px auto 20px;
+		display: block;
+	}
+
 	.image {
 		display: inline-block;
 		border: 0;
@@ -1755,14 +1762,19 @@ input, select, textarea {
 		}
 
 		.image.avatar48 {
-			width: 48px;
-			height: 48px;
+			width: 148px;
+			height: 148px;
 			background: #f00;
+
+			margin: 10px auto 20px;
+    		display: block;
 		}
 
 			.image.avatar48 img {
-				width: 48px;
-				height: 48px;
+				width: 148px;
+				height: 148px;
+				margin: 10px auto 20px;
+    			display: block;
 			}
 
 		.image.fit {
@@ -2276,19 +2288,22 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				width: 300px;
+				width: 400px;
+				
+				
 			}
 
 		/* Footer */
 
 			#footer {
-				margin-left: 300px;
+				margin-left: 400px;
 			}
 
 		/* Main */
 
 			#main {
-				margin-left: 300px;
+				font-size: 17pt;
+				margin-left: 400px;
 			}
 
 	}
