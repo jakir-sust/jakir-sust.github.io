@@ -2260,7 +2260,7 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				/*background-image: url("../../images/banner.jpg");*/
 			}
 
 			#main > section.two {
@@ -2315,7 +2315,7 @@ input, select, textarea {
 		/* Main */
 
 			#main > section {
-				padding: 3em 0;
+				padding: 2em 0;
 			}
 
 			#main section.cover {
@@ -2341,7 +2341,8 @@ input, select, textarea {
 		/* Icons */
 
 			ul.icons li a {
-				width: 1.75em;
+				width: 2.15em;
+				height: 4em;
 			}
 
 		/* Item */
